@@ -2,11 +2,11 @@
 
 The source code comprises a program designed to take in a source file named code.psi and generate a text file called code.lex. This resulting file contains a sequential listing of all the tokens extracted from code.lex.
 
-# Lexical Rules for the Demo
+# Lexical Rules
 
 1- Identifiers:  
 •	Maximum identifier size is 30 characters. If an identifier larger than that is used, the lexical analyzer issues an error message.  
-•	The demo language is not case sensitive and all the identifier names are standardized as lower case.  
+•	The language is not case sensitive and all the identifier names are standardized as lower case.  
 •	Identifiers start with an alphabetic character (a letter) and are composed of one or more letters/digits/_ (underscore).  
 •	Example Token: Identifier(my_var_1)  
 
@@ -37,7 +37,7 @@ The source code comprises a program designed to take in a source file named code
 6- Keywords:  
 •	Keywords are: break,case,char,const,continue,do,else,enum,float,for,goto,if,int,
 long,record,return,static,while.  
-•	The demo language is not case sensitive and all the keywords are standardized as lower case.  
+•	The language is not case sensitive and all the keywords are standardized as lower case.  
 •	Example Token: Keyword(while)  
 
 7- End of Line:  
